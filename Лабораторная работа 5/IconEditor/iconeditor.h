@@ -20,7 +20,7 @@ class IconEditor : public QWidget
 
 public:
     explicit IconEditor(QWidget *parent = 0);
-    ~IconEditor();
+    virtual ~IconEditor();
     //описываем методы реализующие работу со свойствами
     void setPenColor(const QColor &newColor);
     QColor penColor() const {return curColor;}
